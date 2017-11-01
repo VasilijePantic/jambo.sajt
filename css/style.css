@@ -10,28 +10,32 @@ body {
 	text-align: center;
 	background-size: cover; /*ovo ovde ne radi pojma nemam zasto*/
 }
+
 .sadrzajGore h3 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: white;
+	font-family: Lora;
 }
+
 .sadrzajGore hr {
 	width: 1000px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2)
 }
+
 .sadrzajGore h1 {
 	padding-top: 65px;
 	padding-bottom: 65px;
 	color: white;
+	font-family: Lora;
 	visibility: /*kako da ovaj h1 lagano nestaje kad se skroluje dole*/
 }
+
 .sadrzajGore {
 	background: url(http://photos1.blogger.com/blogger/5645/1768/1600/adobo.jpg);
 	background-size: cover;
 }
-
-
 
 .sadrzajSredina {
 	text-align: center;
@@ -41,14 +45,30 @@ body {
 	padding-bottom: 15px;
 	color: #6c7584;
 }
-.sadrzajSredina hr {
+.aboutUs h1 {
+	padding-top: 65px;
+	padding-bottom: 15px;
+	color: #6c7584;
+	text-align: center;
+}
+
+#hr2 {
 	width: 70px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2)
 }
+
+.button {
+	text-align: center;
+	padding-bottom: 30px;
+	text-decoration: none;
+} 
+
+}
 .sadrzajSredina img {
 	background-size: cover;
 	width: 1100px;
+	padding-top: 30px;
 }
 
 #poseban-h3 {
@@ -61,4 +81,17 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 }
-
+.thumbnail img {
+	height: 100px;
+}
+.contactUs h1 {
+	padding-top: 65px;
+	padding-bottom: 15px;
+	color: #6c7584;
+	text-align: center;
+}
+#hr3 {
+	width: 70px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
