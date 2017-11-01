@@ -6,9 +6,15 @@ body {
 	background-size: cover;
 }
 
+
+
 .sadrzajGore {
+	background: url(http://photos1.blogger.com/blogger/5645/1768/1600/adobo.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
 	text-align: center;
-	background-size: cover; /*ovo ovde ne radi pojma nemam zasto*/
+
 }
 
 .sadrzajGore h3 {
@@ -29,12 +35,7 @@ body {
 	padding-bottom: 65px;
 	color: white;
 	font-family: Lora;
-	visibility: /*kako da ovaj h1 lagano nestaje kad se skroluje dole*/
-}
-
-.sadrzajGore {
-	background: url(http://photos1.blogger.com/blogger/5645/1768/1600/adobo.jpg);
-	background-size: cover;
+	 /*kako da ovaj h1 lagano nestaje kad se skroluje dole*/
 }
 
 .sadrzajSredina {
@@ -42,8 +43,9 @@ body {
 }
 
 #srednja-slika{
-	width: 500px;
-	height: 300px;
+	width: 100%;
+	/*height: 300px;*/
+	height: auto;
 
 }
 .aboutUs h1 {
@@ -88,4 +90,67 @@ body {
 	width: 70px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+
+/*Ovde ide CSS za meni*/
+
+.group-header {
+  float: right;
+  font-weight: 700;
+  width: 20%;
+  margin: .7em 0 1em 0;
+}
+.group-header span {
+  float: left;
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+
+#menu h3 {
+  position: relative;
+  font-weight: 700;
+  margin: .7em 0 1em 0;
+}
+#menu h3:after, #menu h3:before {
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+}
+#menu h3 span {
+  float: left;
+  width: 10%;
+  text-align: center;
+  display: block;
+}
+#menu h3 span:first-child {
+  width: 40%;
+  text-align: left;
+}
+#menu h3 .dots {
+  width: 40%;
+  border-bottom: 2px dotted #ccc;
+  margin-top: .8em;
+}
+
+#menu {
+  width: 50%;
+  margin: 1em auto;
+  border: 1px solid #ddd;
+  padding: .3em .6em;
+}
+#menu:after, #menu:before {
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+}
+#menu p {
+  font-size: .9em;
+  color: #777;
+  margin-bottom: 1.5em;
+  font-style: italic;
 }
